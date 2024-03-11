@@ -1,0 +1,327 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1710166941142239, "dur":1856, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710166941144106, "dur":144, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710166941144289, "dur":677, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710166941144992, "dur":2858, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710166941147851, "dur":189836, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710166941337688, "dur":379, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710166941338293, "dur":1630, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1710166941144894, "dur":2967, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710166941147864, "dur":2446, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1710166941150358, "dur":147, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1710166941150519, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1710166941150757, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity games\\ZigZagGame\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710166941150844, "dur":123, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity games\\ZigZagGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710166941150968, "dur":194, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity games\\ZigZagGame\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710166941151163, "dur":231, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity games\\ZigZagGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710166941151395, "dur":304, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity games\\ZigZagGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710166941151699, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity games\\ZigZagGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710166941151789, "dur":238, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\unity games\\ZigZagGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1710166941150357, "dur":1752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1710166941152505, "dur":175112, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1710166941328959, "dur":6936, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1710166941328958, "dur":6940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1710166941335941, "dur":1641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1710166941144922, "dur":2946, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710166941147873, "dur":251, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710166941148124, "dur":2207, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710166941150362, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710166941156698, "dur":1418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1710166941158155, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710166941158450, "dur":5683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710166941164280, "dur":2576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710166941166884, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710166941166966, "dur":3720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710166941170718, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710166941170888, "dur":4958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710166941175871, "dur":198, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710166941176092, "dur":4913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710166941181041, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710166941181113, "dur":6121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710166941187259, "dur":236, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710166941187519, "dur":5091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710166941192638, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710166941192735, "dur":4571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710166941197331, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1710166941197402, "dur":8898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1710166941206336, "dur":131316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710166941144958, "dur":2920, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710166941147881, "dur":266, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710166941148148, "dur":2174, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710166941150349, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710166941152189, "dur":2286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1710166941154769, "dur":1462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1710166941156305, "dur":2089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1710166941158469, "dur":1875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame.exe" }}
+,{ "pid":12345, "tid":3, "ts":1710166941160451, "dur":3932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710166941164409, "dur":323, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710166941164772, "dur":3202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710166941168055, "dur":3834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710166941171913, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710166941171983, "dur":5039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710166941177045, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710166941177119, "dur":5437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710166941182580, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710166941182684, "dur":6229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710166941188940, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710166941189086, "dur":5108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710166941194221, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1710166941194419, "dur":4971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710166941199482, "dur":17307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1710166941216814, "dur":120850, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710166941144992, "dur":2893, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710166941147889, "dur":287, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710166941148177, "dur":2156, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710166941150358, "dur":227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710166941165031, "dur":3283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1710166941168340, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710166941168450, "dur":3137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710166941171611, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710166941171679, "dur":4781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710166941176485, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710166941176660, "dur":4958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710166941181644, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710166941181745, "dur":6118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710166941187892, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710166941188072, "dur":5779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710166941193875, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1710166941193966, "dur":11792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1710166941205807, "dur":131874, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710166941145029, "dur":2867, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710166941147901, "dur":259, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710166941148160, "dur":2177, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710166941150369, "dur":224, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710166941165247, "dur":3344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1710166941168622, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710166941168758, "dur":3763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710166941172544, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710166941172629, "dur":4643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710166941177295, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710166941177413, "dur":5403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710166941182841, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710166941182942, "dur":6863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710166941189956, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710166941190160, "dur":4275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710166941194464, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1710166941194659, "dur":5642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1710166941200344, "dur":8673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1710166941209042, "dur":128648, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710166941145063, "dur":2841, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710166941147908, "dur":255, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710166941148163, "dur":2156, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710166941150361, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710166941164649, "dur":1930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1710166941166608, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710166941166768, "dur":3657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710166941170516, "dur":4351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710166941174903, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710166941174993, "dur":4911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710166941179929, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710166941180086, "dur":6892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710166941187004, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710166941187072, "dur":5847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710166941192943, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710166941193060, "dur":4651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710166941197735, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1710166941197822, "dur":9804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1710166941207662, "dur":130079, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710166941145101, "dur":2811, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710166941147916, "dur":235, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710166941148152, "dur":2196, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710166941150367, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710166941166102, "dur":1561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1710166941167691, "dur":190, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710166941167903, "dur":3024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710166941170951, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710166941171024, "dur":5098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710166941176145, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710166941176223, "dur":5018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710166941181269, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710166941181355, "dur":6134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710166941187517, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710166941187625, "dur":5561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710166941193211, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710166941193326, "dur":4638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710166941197988, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1710166941198157, "dur":8456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1710166941206648, "dur":131002, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710166941145144, "dur":2778, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710166941147927, "dur":238, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710166941148165, "dur":2161, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710166941150356, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710166941152208, "dur":2446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1710166941154681, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710166941154842, "dur":1789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1710166941156667, "dur":607, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710166941157883, "dur":1588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1710166941159842, "dur":4759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710166941164623, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710166941164779, "dur":4376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710166941169240, "dur":3556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710166941172823, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710166941173072, "dur":4569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710166941177670, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710166941177773, "dur":5268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710166941183067, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710166941188315, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710166941183151, "dur":6929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710166941190109, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710166941190203, "dur":4583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710166941194836, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710166941195008, "dur":5537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1710166941203068, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1710166941200596, "dur":3327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1710166941203993, "dur":4792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1710166941208812, "dur":128861, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710166941145185, "dur":2755, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710166941147945, "dur":80, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710166941148025, "dur":2315, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710166941150364, "dur":257, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1710166941220322, "dur":1811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1710166941222159, "dur":115496, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710166941145216, "dur":2737, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710166941147954, "dur":2361, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710166941150319, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Anshuman/Desktop/Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1710166941150373, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710166941173960, "dur":1598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1710166941175585, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710166941175676, "dur":4965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710166941180665, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710166941180812, "dur":5914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710166941186756, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710166941186878, "dur":4962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710166941191866, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710166941191949, "dur":4365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710166941196341, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1710166941196416, "dur":7267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1710166941203767, "dur":4348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1710166941208144, "dur":129605, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710166941145252, "dur":2717, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710166941147969, "dur":2355, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710166941150371, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710166941164287, "dur":1852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1710166941166165, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710166941166279, "dur":3404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710166941169706, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710166941169861, "dur":4020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710166941173908, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710166941174064, "dur":4881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710166941178971, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710166941179063, "dur":5151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710166941184243, "dur":239, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710166941184535, "dur":6561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710166941191123, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710166941191283, "dur":4491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710166941195800, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710166941195893, "dur":5480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1710166941201400, "dur":435, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1710166941201869, "dur":2805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1710166941204720, "dur":3855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1710166941208600, "dur":129099, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710166941145291, "dur":2682, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710166941147974, "dur":2342, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710166941150339, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710166941156188, "dur":2538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1710166941159628, "dur":3911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1710166941163640, "dur":1756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710166941165420, "dur":447, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710166941165884, "dur":2991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710166941168899, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710166941168968, "dur":3297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710166941172346, "dur":4380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710166941176818, "dur":5228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710166941182070, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710166941187673, "dur":75, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710166941182143, "dur":6488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710166941188708, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710166941188825, "dur":4726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710166941193577, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710166941193715, "dur":5329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710166941199077, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1710166941199211, "dur":7962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1710166941207200, "dur":130462, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710166941145325, "dur":2653, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710166941147979, "dur":2333, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710166941150363, "dur":190, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710166941173400, "dur":1753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/app.info" }}
+,{ "pid":12345, "tid":13, "ts":1710166941175161, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710166941179913, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710166941175298, "dur":4963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710166941180292, "dur":241, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710166941180554, "dur":5936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710166941186520, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710166941191211, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710166941186636, "dur":5675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710166941192335, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710166941192448, "dur":4407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710166941196880, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1710166941197041, "dur":9886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1710166941206959, "dur":130719, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710166941145363, "dur":2621, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710166941147985, "dur":2328, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710166941150368, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710166941150936, "dur":3931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":14, "ts":1710166941154972, "dur":1932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1710166941157812, "dur":1926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":14, "ts":1710166941159892, "dur":3959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":14, "ts":1710166941163931, "dur":1949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1710166941165913, "dur":316, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710166941166273, "dur":3861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":14, "ts":1710166941170157, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710166941170255, "dur":4270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":14, "ts":1710166941174550, "dur":227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710166941174794, "dur":4883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1710166941179723, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710166941179923, "dur":55, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710166941179982, "dur":5294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1710166941185307, "dur":245, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710166941185576, "dur":6023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1710166941191630, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710166941191784, "dur":3744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1710166941195554, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710166941195722, "dur":5179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1710166941200932, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1710166941201060, "dur":3310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":14, "ts":1710166941204428, "dur":3925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":14, "ts":1710166941208385, "dur":129366, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710166941145390, "dur":2601, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710166941147991, "dur":2326, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710166941150320, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Anshuman/Desktop/Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":15, "ts":1710166941150399, "dur":205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710166941165832, "dur":3600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":15, "ts":1710166941169458, "dur":380, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710166941169852, "dur":3703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":15, "ts":1710166941173595, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710166941173778, "dur":4913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1710166941178722, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710166941178820, "dur":4971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1710166941183820, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710166941183904, "dur":6832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1710166941190765, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710166941190851, "dur":4271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1710166941195144, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1710166941195220, "dur":4836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1710166941200110, "dur":3235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":15, "ts":1710166941203401, "dur":4478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/level0.resS" }}
+,{ "pid":12345, "tid":15, "ts":1710166941207908, "dur":129811, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710166941145423, "dur":2573, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710166941147997, "dur":2331, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710166941150359, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710166941167450, "dur":2407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1710166941169886, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710166941169969, "dur":4251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710166941174247, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710166941174400, "dur":4797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710166941179225, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710166941179318, "dur":5112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710166941184457, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710166941184543, "dur":6778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710166941191350, "dur":404, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710166941191779, "dur":4274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710166941196078, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710166941196224, "dur":6646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1710166941202930, "dur":158, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1710166941203184, "dur":4187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Anshuman/Desktop/Builds/ZigZagGame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":16, "ts":1710166941207404, "dur":130313, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1710166941342900, "dur":1543, "ph":"X", "name": "ProfilerWriteOutput" }
+,
