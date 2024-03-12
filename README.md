@@ -8,3 +8,16 @@ Download Link for Visual Studio Community -> https://visualstudio.microsoft.com/
 
 Now download all the source files from the repository 
 
+Now to run the game as an application
+ - Go to the assets folder
+ - Run the "main" application which would be a unity scene file.
+ - Now the Unity GUI will open considering you have downloaded Untiy in your Mac/Windows
+ - Now go the build settings of the project which you can find in the top left cornew of the GUI under the section "file".
+ - Now select the scene and tap on the build settings.
+ - Build according to your OS of the system
+ - Choose the file location in where you want to build the app
+ - Tap on Build and Run
+ - Wait for some time
+ - Voila, Enjoy the Game
+
+
