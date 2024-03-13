@@ -20,4 +20,6 @@ Now to run the game as an application
  - Wait for some time
  - Voila, Enjoy the Game
 
+Make sure to have the latest version of Unity for the build Process.
+
 
