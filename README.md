@@ -22,4 +22,6 @@ Now to run the game as an application
 
 Make sure to have the latest version of Unity for the build Process.
 
+Added a new mini-game TIC TAC TOE in the source file, which can be directly runned from the Visual Studio Comuunity IDE. Enjoy :)
+
 
